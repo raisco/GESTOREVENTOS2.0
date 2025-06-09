@@ -17,7 +17,6 @@ El proyecto está organizado en las siguientes carpetas:
   - `Recurso.java`: Representa un recurso con propiedades de tipo y descripción.
 
 - **view**: Contiene las clases que gestionan la interfaz gráfica del usuario.
-  - `CalendarioEventos.java`: Proporciona una interfaz de calendario visual para seleccionar fechas de eventos utilizando la biblioteca JCalendar.
   - `DetalleEvento.java`: Muestra información detallada sobre un evento seleccionado y permite la inscripción de asistentes.
   - `FormularioEvento.java`: Proporciona un formulario para agregar y editar detalles de eventos.
   - `VentanaPrincipal.java`: Ventana principal de la aplicación que muestra la lista de eventos y proporciona botones para agregar y editar eventos.
@@ -29,19 +28,6 @@ El proyecto está organizado en las siguientes carpetas:
   - `eventos.txt`: Almacena datos de eventos en formato de texto.
   - `asistentes.txt`: Almacena datos de asistentes en formato de texto.
   - `recursos.txt`: Almacena datos de recursos en formato de texto.
-
-## Instrucciones de Configuración
-
-1. **Requisitos Previos**:
-   - Asegúrate de tener instalado Java Development Kit (JDK) en tu máquina.
-   - Descarga la biblioteca JCalendar y colócala en la carpeta `lib`.
-
-2. **Compilación**:
-   - Compila los archivos `.java` en las carpetas `controller`, `model` y `view`.
-
-3. **Ejecución**:
-   - Ejecuta la clase `VentanaPrincipal` para iniciar la aplicación.
-
 ## Uso
 
 - La aplicación permite gestionar eventos, inscribir asistentes y gestionar recursos.
@@ -51,4 +37,3 @@ El proyecto está organizado en las siguientes carpetas:
 ## Notas
 
 - La funcionalidad de notificaciones por correo electrónico está preparada para futura configuración de un servidor SMTP.
-- Se recomienda revisar el código y realizar pruebas para asegurar el correcto funcionamiento de todas las funcionalidades.
